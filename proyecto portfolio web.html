@@ -18,7 +18,7 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark" id="barra-nav">
     <a class="navbar-brand" href="#">Nombre de Usuario</a>
     <!--botón imprimir, descargar pdf, compartir-->
     <button type="button" class="btn btn-outline-secondary">
@@ -45,6 +45,32 @@
           <a class="nav-link" href="#">Compartir Portfolio</a>
         </li>
   </nav>
-  <p>esto es un textito</p>
+
+<!--primera card y foto de perfil + info perfil-->
+  <div class="card mat-card" id="primera-carta">
+    <div class="row" id="foto-background">
+      <div class="col-sm-12">
+       <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\fondohl.jpeg"   style="width:100%" style="height: 50%" alt="fondo prueba">
+      </div>
+     </div>
+    <div class="row" id="foto-perfil">
+      <div class="col-sm-6">
+       <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\pepe.jpg"  class="rounded-circle" style="width:40%" style="height: auto" alt="foto prueba">
+      </div>
+     </div>
+    <div class="card-body">
+      <p><strong>Nombre de perfil</strong></p>
+      <p>Profesión</p>
+    </div>
+  </div>
+
+  <!--segunda card - Experiencia laboral-->
+  <div class="card mat-card" id="segunda-carta">
+    <div class="card-body">
+      <h4 class="card-title">Experiencia Laboral</h4>
+      <p>Esta es mi experiencia...</p>
+    </div>
+  </div>
+
 </body>
 </html>
