@@ -18,6 +18,7 @@
 
 </head>
 <body>
+  <!--Barra superior-->
   <nav class="navbar navbar-dark" id="barra-nav">
     <a class="navbar-brand" href="#">Nombre de Usuario</a>
     <!--botón imprimir, descargar pdf, compartir-->
@@ -48,29 +49,58 @@
 
 <!--primera card y foto de perfil + info perfil-->
   <div class="card mat-card" id="primera-carta">
+    <!--foto portada-->
     <div class="row" id="foto-background">
-      <div class="col-sm-12">
-       <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\fondohl.jpeg"   style="width:100%" style="height: 50%" alt="fondo prueba">
+      <div class="container-fluid">
+       <img class="img-fluid" src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\fondohl.jpeg"  alt="fondo prueba">
       </div>
+    </div>
+    <!--foto perfil-->
+     <div id="foto-perfil">
+      <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\pepe.jpg"  class="rounded-circle" style="width:20%" style="height: auto" alt="foto prueba">
      </div>
-    <div class="row" id="foto-perfil">
-      <div class="col-sm-6">
-       <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\pepe.jpg"  class="rounded-circle" style="width:40%" style="height: auto" alt="foto prueba">
-      </div>
-     </div>
-    <div class="card-body">
-      <p><strong>Nombre de perfil</strong></p>
-      <p>Profesión</p>
+
+    <div class="card-body" id="info-perfil">
+      <p style="margin-bottom:0;"><strong>Nombre de perfil</strong></p>
+      <p style="margin-bottom:0;">Profesión</p>
+      <a href="#"><strong>Información de Contacto</strong></a>
+      <div class="row" id="botones">
+      <button type="button" class="btn btn-primary">Nueva sección</button>
+      <button type="button" class="btn btn-secondary">Editar perfil</button>
+       </div>
     </div>
   </div>
 
   <!--segunda card - Experiencia laboral-->
   <div class="card mat-card" id="segunda-carta">
     <div class="card-body">
-      <h4 class="card-title">Experiencia Laboral</h4>
-      <p>Esta es mi experiencia...</p>
+      <h6 class="card-title">Experiencia Laboral</h6>
+      <div class="experiencia-laboral">
+        <!--Primera experiencia-->
+      <img src="C:\Users\luks_\Desktop\Proyecto Argentina Programa\logos\gestambo.jpg" style="width:15%" style="height: auto" alt="fondo prueba"> 
+        <div class="texto-experiencia">
+          <p style="padding-right: 160px;"><strong>Gestambo</strong><p>
+          <p>Soporte Técnico - Jornada Parcial</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </div> 
+
+    <!--tercera card - Educación-->
+    <div class="card mat-card" id="tercera-carta">
+      <div class="card-body">
+        <h6 class="card-title">Educación</h6>
+        <p>Esta es mi Educación...</p>
+      </div>
+    </div>
+
+        <!--cuarta card - Habilidad-->
+        <div class="card mat-card" id="cuarta-carta">
+          <div class="card-body">
+            <h6 class="card-title">Habilidades</h6>
+            <p>Estas son mis habilidades...</p>
+          </div>
+        </div>
 
 </body>
 </html>
