@@ -31,17 +31,17 @@ button.btn.btn-primary{
 
 
 .texto-experiencia{
-    height: 50px;
+    height: 100px;
     position: relative;
     margin-top: -45px;
-}
-.texto-experiencia p{
-    padding-left: 0px;
-    float: right;
-    margin-bottom: 0px;
-}
+    margin-left: 80px;
+    width: 400px;
+    line-height: 8px;
+    padding-top: 4px;
+ }
 
 
 .experiencia-laboral{
     width: 300px;
+    padding-top: 15px;
 }
